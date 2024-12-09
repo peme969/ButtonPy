@@ -1,0 +1,35 @@
+from distutils.core import setup
+setup(
+  name = 'ButtonPy',         
+  packages = ['ButtonPy'],   
+  version = '0.1',      
+  license='GPL-3.0',        
+  description = 'A python library dedicated for creating colorful and responsive clickable ✨ buttons ✨',  
+  author = 'Peme969',           
+  author_email = 'mrcoderpeme@gmail.com',      
+  url = 'https://github.com/peme969/ButtonPy',   
+  download_url = 'https://github.com/peme969/ButtonPy/archive/v0.1.tar.gz',   
+  keywords = ['ansi', 'color', 'python','simple','responsive','clickable','buttons','button','termios','select','sys'],  
+  install_requires=[            
+          'validators',
+          'beautifulsoup4',
+      ],
+  classifiers=[
+    'Development Status :: 3 - Alpha',   
+    'Intended Audience :: Developers',      
+    'Intended Audience :: Education',
+    'Topic :: Software Development :: Build Tools',
+    'License :: OSI Approved :: GPL-3.0 License',
+    'License :: OSI Approved :: GNU General Public License v3 (GPLv3)',
+    'Natural Language :: English',
+    'Operating System :: POSIX',
+    'Programming Language :: Python',
+    'Programming Language :: Python :: 3.9',
+    'Programming Language :: Python :: 3.10',
+    'Programming Language :: Python :: 3.11',
+    'Programming Language :: Python :: 3.12',
+    'Programming Language :: Python :: 3.13',
+    'Programming Language :: Python :: 3.14',
+    'Topic :: Artistic Software'
+  ],
+)
